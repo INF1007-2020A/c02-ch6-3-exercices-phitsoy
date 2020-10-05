@@ -77,7 +77,7 @@ def check_tags(full_text, tag_names, comment_tags):
 				return False
 			#on depile et on avance
 			tag_stack.pop()
-			text = text[len(tag(1)):]
+			text = text[len(tag[1]):]
 		#sinon:
 		else:
 			#on avance jusqu'a la prochaine balise
